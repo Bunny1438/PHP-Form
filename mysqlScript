@@ -1,0 +1,12 @@
+CREATE TABLE users (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` varchar(100) NOT NULL,
+  `dob` varchar(100) NOT NULL,
+  `number` int(10) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `marks` int(5) NOT NULL
+  `universityName` varchar(100) NOT NULL,
+  `universityEmail` varchar(100) NOT NULL,
+  `reason` varchar(500) NOT NULL
+
+);

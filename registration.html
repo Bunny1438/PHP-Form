@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+<style type="text/css">
+	*{
+		margin:0;
+		padding: 0;
+	}
+	.main{
+		width: 33%;
+		height: 540px;
+		border:2px solid black;
+		margin: 4% auto;	
+		padding: 40px 70px 40px 70px;
+		background-color: #eee;
+		text-align: center;	
+	}
+	.button{
+		font-size: 20px;
+		padding: 8px 15px;
+		border-radius: 10px;
+	}
+	.button:hover{
+        cursor: pointer;
+        background-color: grey;
+	}
+</style>
+<body>
+	<div class="main">
+	<h1>Scholarship Form</h1><br><br>
+<!-- Form -->
+<form name="registration" method="post" action="registration.php">
+STUDENT NAME:<input type="text" name="name" value="" required=""></br></br>
+DATE OF BIRTH:<input type="text" name="dob" value="" required=""></br></br>
+PHONE NUMBER:<input type="text" name="number" value="" required=""></br></br>
+EMAIL-ID:<input type="email" name="email" value="" required=""></br></br>
+MARKS:<input type="number" name="marks" value="" required=""></br></br>
+UNIVERSITY NAME:<input type="text" name="universityName" value="" required=""></br></br>
+UNIVERSITY EMAIL:<input type="email" name="universityEmail" value="" required=""></br></br>
+REASON FOR APPLYING:</br><textarea name="reason" value="" cols="40" rows="5" required=""></textarea></br>
+</br></br></br>
+<input type="submit" name="submit" value="Submit" class="button">
+</form>
+</div>
+</body>
+</head>
+</html>
